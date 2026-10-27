@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class ScannerInput {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Integer: ");
+        int i = sc.nextInt();
+
+        System.out.print("Enter Float: ");
+        float f = sc.nextFloat();
+
+        System.out.print("Enter Double: ");
+        double d = sc.nextDouble();
+
+        System.out.print("Enter Character: ");
+        char c = sc.next().charAt(0);
+
+        System.out.print("Enter Boolean: ");
+        boolean b = sc.nextBoolean();
+
+        sc.nextLine();
+
+        System.out.print("Enter String: ");
+        String s = sc.nextLine();
+
+        System.out.println("\nEntered Values:");
+        System.out.println("Integer : " + i);
+        System.out.println("Float   : " + f);
+        System.out.println("Double  : " + d);
+        System.out.println("Character : " + c);
+        System.out.println("Boolean : " + b);
+        System.out.println("String  : " + s);
+
+        sc.close();
+    }
+}wq:
+
